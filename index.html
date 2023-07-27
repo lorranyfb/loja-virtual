@@ -4,57 +4,77 @@
         <meta charset="UTF-8">
         <meta name="viewport" contente>
         <title>Canecas Pai D' Égua</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <header class="cabecalho">
-            <img class="logo" src="img/logocanecas1200.jpg" alt="Logo em circulo e dentro escrito canecas na cor laranja e pai d' égua na cor branca e do lado uma caneca">
-            <nav class="menu">
-                <a class="item">Quem somos</a>
-                <a class="item">Time</a>
-                <a class="item">Produtos</a>
-            </nav>
+        <header class="container-fluid p-2 bg-black text-center">
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">Canecas Pai D Égua</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Quem somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Nosso time</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Produtos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-
-        <main class="conteudo">
-            <section class="primeira-secao">
-                <div class="div-primeira">
-                    <h1 class="titulo">CANECAS PERSONALIZADAS</h1>
-                    <h2 class="subtitulo">Estamos muito felizes de ter você aqui! Criamos canecas do seu jeito.</h2>
-                </div>
-                <img class="imagem-principal" src="img/principal.jpg" alt="Imagem de canecas">
+        <section class="container-fluid bg-secondary-subtle text-center p-3">
+            <h2>CANECAS PERSONALIZADAS</h2>
+            <p class="paragrafo">Localizada na Avenida Independencia a Canecas Pai D' Égua traz para o mercado o que há de melhor em personalizados. Fundada em 2019, a Loja já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <p class="paragrafo"><em> Nossa missão é: <strong>"Proporcionar produtos que despertem o desejo e satisfação dos clientes"</strong>.</em></p>
+            <p class="paragrafo">Oferecemos profissionais dedicados e eficientes na produção. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            <div class="row">
+                <figure class="col text center">
+                    <img  src="img/boxok.jpeg" alt="">
+                </figure>
+                <figure class="col text center">
+                    <img  src="img/boxok.jpeg" alt="">
+                </figure>
+                <figure class="col text center">
+                    <img  src="img/boxok.jpeg" alt="">
+                </figure>
+            </div> 
+        </section>
+        <section class="container-fluid bg-warning p-3">
+            <h2 class="text-center">Nosso Time</h2>
+            <div class="row">
+                <figure class="col text-center">
+                    <img src="img/larissa.jpg" alt="Foto da pessoa">
+                    <figcaption>Larissa Furtado</figcaption>
+                    <figcaption>Marquete</figcaption>
+                </figure>
+                <figure class="col text-center">
+                    <img src="img/lucas.jpg" alt="Foto da pessoa responsável pelo designer">
+                    <figcaption>Lucas</figcaption>
+                </figure>
+                <figure class="col text-center">
+                    <img src="img/lorrany.jpg" alt="Foto da pessoa responsável pelo atendimento">
+                    <figcaption>Lorrany</figcaption>
+                </figure>
+            </div>
             </section>
-
-            <section class="segunda-secao">
-                <div>
-                    <h2>Canecas Pai D' Égua</h2>
-                    <p class="paragrafo">Localizada na Avenida Independencia a Canecas Pai D' Égua traz para o mercado o que há de melhor em personalizados. Fundada em 2019, a Loja já é destaque na cidade e conquista novos clientes a cada dia.</p>
-                    <p class="paragrafo"><em> Nossa missão é: <strong>"Proporcionar produtos que despertem o desejo e satisfação dos clientes"</strong>.</em></p>
-                    <p class="paragrafo">Oferecemos profissionais dedicados e eficientes na produção. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-                </div>
-            </section>
-
-            <section class="terceira-secao">
-                <h2>Nosso Time</h2>
-                <img class="time_img" src="img/larissa.jpg" alt="Foto da pessoa">
-              <img class="time_img" src="img/lucas.jpg" alt="Motivo para adotar">
-              <img class="time_img" src="img/lorrany.jpg" alt="Foto da pessoa responsável pelo atendimento">
-              <div class="motivos">
-                <div class="motivo">
-                  <p>Larissa Furtado</p>
-                  <p>Markerting</p>
-              </div>
-                <div class="motivo">
-                  <p>Lucas Lisboa</p>
-                  <p>Designer</p>
-                </div>
-                <div class="motivo">
-                  <p>Lorrany Brito</p>
-                  <p>Atendente de vendas</p>
-                </div>
-            </section>
-
-            <section class="quarta-secao">
+            <section class="container-fluid bg-secondary-subtle">
                     <ul class="produtos">
                         <li>
                             <h2>Caneca Ilustração</h2>
@@ -95,10 +115,10 @@
                     </ul>
             </section>
   
-            <footer>
+            <footer class="container-fluid bg-black">
                 <img src="img/rodapeok.png">
                 <p class="copyright">&copy; Copyright Canecas Pai D' Égua - 2023</p>
             </footer>
-      
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
 </html>
