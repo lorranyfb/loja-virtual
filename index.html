@@ -4,14 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" contente>
         <title>Canecas Pai D' Égua</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <header class="container-fluid p-2 bg-black text-center">
-            <nav class="navbar navbar-expand-lg bg-black">
+        <header class="container-fluid p-2 bg-dark text-center">
+            <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand text-white" href="#">Canecas Pai D Égua</a>
+                  <a class="navbar-brand text-white" href="#"><img src="img/favicon-removebg-preview.png" alt="logo da loja"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -28,97 +29,175 @@
                           Produtos
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Canecas Tradicionais</a></li>
+                          <li><a class="dropdown-item" href="#">Canecas Pretas</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Canecas Coloridas</a></li>
                         </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#"> <i class="bi bi-cart2"></i></a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </nav>
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/carousel/carousel1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="title-carousel">Canecas personalizadas</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/carousel/carousel3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 class="title-carousel">Diversos modelos</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/carousel/carousel2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 class="title-carousel">Escolha a sua caneca e personalize</h4>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </header>
         <section class="container-fluid bg-secondary-subtle text-center p-3">
-            <h2>CANECAS PERSONALIZADAS</h2>
-            <p class="paragrafo">Localizada na Avenida Independencia a Canecas Pai D' Égua traz para o mercado o que há de melhor em personalizados. Fundada em 2019, a Loja já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <h2>Canecas Pai D' Égua</h2>
+            <p class="paragrafo">A Canecas Pai D' Égua traz para o mercado o que há de melhor em personalizados. Fundada em 2019, a Loja já é destaque na cidade e conquista novos clientes a cada dia.</p>
             <p class="paragrafo"><em> Nossa missão é: <strong>"Proporcionar produtos que despertem o desejo e satisfação dos clientes"</strong>.</em></p>
             <p class="paragrafo">Oferecemos profissionais dedicados e eficientes na produção. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-            <div class="row">
-                <figure class="col text center">
-                    <img  src="img/boxok.jpeg" alt="">
-                </figure>
-                <figure class="col text center">
-                    <img  src="img/boxok.jpeg" alt="">
-                </figure>
-                <figure class="col text center">
-                    <img  src="img/boxok.jpeg" alt="">
-                </figure>
-            </div> 
+    
         </section>
         <section class="container-fluid bg-warning p-3">
-            <h2 class="text-center">Nosso Time</h2>
-            <div class="row">
-                <figure class="col text-center">
-                    <img src="img/larissa.jpg" alt="Foto da pessoa">
-                    <figcaption>Larissa Furtado</figcaption>
-                    <figcaption>Marquete</figcaption>
-                </figure>
-                <figure class="col text-center">
-                    <img src="img/lucas.jpg" alt="Foto da pessoa responsável pelo designer">
-                    <figcaption>Lucas</figcaption>
-                </figure>
-                <figure class="col text-center">
-                    <img src="img/lorrany.jpg" alt="Foto da pessoa responsável pelo atendimento">
-                    <figcaption>Lorrany</figcaption>
-                </figure>
-            </div>
+            <h2 class="text-center p-2">Nosso Time</h2>
+            <div class="row text-center">
+                <div class="col-lg-4">
+                  <img src="img/time/larissa.jpeg" alt="Foto da pessoa" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <h2 class="fw-normal">Larissa Furtado</h2>
+                  <p>Responsavel pelo Marketing e produção dos produtos.</p>
+                </div>
+                <div class="col-lg-4">
+                 <img src="img/time/lucas.jpeg" alt="Foto da pessoa" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <h2 class="fw-normal">Lucas Lisboa</h2>
+                  <p>Designer da loja, responsavel pela criação de artes que personalizam as canecas.</p>
+                </div>
+                <div class="col-lg-4">
+                <img src="img/time/lorrany.jpeg" alt="Foto da pessoa" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <h2 class="fw-normal">Lorrany Brito</h2>
+                  <p>Atendimento dos clientes e organização de pedidos.</p>
+                </div>
+              </div>
             </section>
-            <section class="container-fluid bg-secondary-subtle">
-                    <ul class="produtos">
-                        <li>
-                            <h2>Caneca Ilustração</h2>
-                            <img class="tamanho-imagem" src="img/canecaok.jpeg">
-                            <p class="produto-descricao">Caneca de porcelana com ilustração.</p>
-                            <p class="produto-preco">R$60,00</p>
-                        </li>
-                        <li>
-                            <h2>Caneca Colher</h2>
-                            <img class="tamanho-imagem" src="img/canecacolherok.jpeg">
-                            <p class="produto-descricao">Caneca com colher de porcelana Friends.</p>
-                            <p class="produto-preco">R$50,00</p>
-                        </li>
-                        <li>
-                            <h2>Caneca Caricatura</h2>
-                            <img class="tamanho-imagem" src="img/caneca caricatura.png">
-                            <p class="produto-descricao">Caneca de porcelana com caricatura de pet.</p>
-                            <p class="produto-preco">R$70,00</p>
-                        </li>
-                        <li>
-                            <h2>Caneca Cromada</h2>
-                            <img class="tamanho-imagem" src="img/caneca cromada.png">
-                            <p class="produto-descricao">Caneca de porcelana cromada.</p>
-                            <p class="produto-preco">R$55,00</p>
-                        </li>
-                        <li>
-                            <h2>Caneca Preta</h2>
-                            <img class="tamanho-imagem" src="img/caneca preta.png">
-                            <p class="produto-descricao">Caneca de porcelana preta Stranger Things.</p>
-                            <p class="produto-preco">R$50,00</p>
-                        </li>
-                        <li>
-                            <h2>Caneca Alça Coração</h2>
-                            <img class="tamanho-imagem" src="img/caneca alça coraçao.png">
-                            <p class="produto-descricao">Caneca de porcelana com alça de coração.</p>
-                            <p class="produto-preco">R$65,00</p>
-                        </li>
-                    </ul>
+            <section class="container-fluid p-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100 bg-warning">
+                        <img src="img/produtos/caneca alça coraçao.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" class="title_produto">Caneca de Alça Coração</h5>
+                            <h3 lass="card-subtitle text-nuted">R$65,00</h3>
+                            <p class="card-text">Caneca de porcelana com alça de coração.</p>
+                        </div>
+                        <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-warning" height="250px">
+                          <img src="img/produtos/caneca caricatura.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title" class="title_produto">Caneca com Caricatura</h5>
+                              <h3 lass="card-subtitle text-nuted">R$80,00</h3>
+                              <p class="card-text">Caneca de porcelana com caricatura de pet.</p>
+                          </div>
+                          <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100 bg-warning">
+                          <img src="img/produtos/canecaok.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title" class="title_produto">Caneca com Ilustração</h5>
+                              <h3 lass="card-subtitle text-nuted">R$70,00</h3>
+                              <p class="card-text">Caneca de porcelana alça preta com ilustração de casal.</p>
+                          </div>
+                          <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100 bg-warning">
+                          <img src="img/produtos/canecacolherok.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title" class="title_produto">Caneca com Colher</h5>
+                              <h3 lass="card-subtitle text-nuted">R$60,00</h3>
+                              <p class="card-text">Caneca de porcelana com arte dos Friends.</p>
+                          </div>
+                          <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100 bg-warning">
+                          <img src="img/produtos/caneca preta.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title" class="title_produto">Caneca Preta</h5>
+                              <h3 lass="card-subtitle text-nuted">R$50,00</h3>
+                              <p class="card-text">Caneca de porcelan preta com arte do Stranger Things.</p>
+                          </div>
+                          <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100 bg-warning">
+                          <img src="img/produtos/caneca cromada.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title" class="title_produto">Caneca Cromada</h5>
+                              <h3 lass="card-subtitle text-nuted">R$55,00</h3>
+                              <p class="card-text">Caneca de porcelana cromada dourada.</p>
+                          </div>
+                          <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                        </div>
+                      </div>
+                  </div>
             </section>
   
-            <footer class="container-fluid bg-black">
+            <footer class="container-fluid bg-dark">
                 <img src="img/rodapeok.png">
-                <p class="copyright">&copy; Copyright Canecas Pai D' Égua - 2023</p>
+                <p class="copyright">&copy; Copyright Canecas Pai D' Égua - Belém-PA - 2023</p>
             </footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Produto adicionado ao carrinho!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Continuar compra</button>
+          <a href="checkout.html" type="button" class="btn btn-warning">Finalizar compra</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>

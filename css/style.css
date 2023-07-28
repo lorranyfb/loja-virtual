@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  
+}
+
+.title-carousel{
+    color:#f76714;
+    font-size: 80px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.title_produto {
+    color:#f76714;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 10px 0;
+}
+
+.copyright {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin:20px 0 0;
+}
